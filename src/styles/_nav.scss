@@ -1,0 +1,36 @@
+nav {
+  background-color: rgb(82, 222, 222, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid #c1f4f54d;
+  box-shadow: 0 -2px 4px rgba(255, 255, 255, 0.1);
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 3rem;
+    li {
+      padding: 0.25rem 1rem;
+      a {
+        display: block;
+        text-decoration: none;
+        font-family: "Edu AU VIC WA NT Arrows", serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        letter-spacing: 1px;
+        color: rgb(0, 0, 0);
+        font-size: 1rem;
+        &:hover {
+          color: rgb(25, 90, 92);
+        }
+      }
+    }
+  }
+}
+
+.edu-au-vic-wa-nt-arrows-try {
+  font-family: "Edu AU VIC WA NT Arrows", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
