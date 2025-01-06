@@ -8,7 +8,9 @@ const Search = ({ search, setInput }) => {
   return (
     <div className="search">
       <input onChange={inputHandler} type="text" />
-      <button onClick={search}>Search</button>
+      <button className="searchButton" onClick={search}>
+        Search
+      </button>
     </div>
   );
 };

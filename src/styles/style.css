@@ -13,6 +13,22 @@ ul {
   list-style-type: none;
 }
 
+div.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.morePicture button {
+  background-color: rgb(255, 255, 255);
+  margin: 0rem 0rem 2rem 0rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: rgb(166, 166, 166);
+  border: 1px solid rgb(166, 166, 166);
+  cursor: pointer;
+}
+
 nav {
   background-color: rgba(82, 222, 222, 0.7);
   -webkit-backdrop-filter: blur(10px);
@@ -64,7 +80,7 @@ input {
   border: 1px solid rgb(166, 166, 166);
 }
 
-button {
+button.searchButton {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   margin: 0 0.25rem;
@@ -73,7 +89,7 @@ button {
   color: rgb(166, 166, 166);
   background-color: rgba(231, 231, 231, 0);
 }
-button:hover {
+button.searchButton:hover {
   background-color: rgb(82, 222, 222);
   color: white;
   border: 1px solid rgb(82, 222, 222);

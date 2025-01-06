@@ -13,6 +13,22 @@ ul {
   list-style-type: none;
 }
 
+div.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    background-color: rgb(255, 255, 255);
+    margin: 0rem 0rem 2rem 0rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    color: rgb(166, 166, 166);
+    border: 1px solid rgb(166, 166, 166);
+    cursor: pointer;
+  }
+}
+
 @import "./nav.scss";
 @import "./search.scss";
 @import "./footer.scss";
