@@ -4,10 +4,15 @@ const Search = ({ search, setInput }) => {
   const inputHandler = (e) => {
     setInput(e.target.value);
   };
+  const keyDownHandler = (e) => {
+    if (e.key === "Enter") {
+      search();
+    }
+  };
 
   return (
     <div className="search">
-      <input onChange={inputHandler} type="text" />
+      <input onChange={inputHandler} onKeyDown={keyDownHandler} type="text" />
       <button className="searchButton" onClick={search}>
         Search
       </button>

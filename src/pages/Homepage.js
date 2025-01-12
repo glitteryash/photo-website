@@ -36,6 +36,7 @@ const Homepage = () => {
       }`;
     }
     setPage(page + 1);
+
     const dataFetch = await fetch(newUrl, {
       method: "GET",
       headers: {

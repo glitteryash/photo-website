@@ -127,4 +127,21 @@ div.pictures .picture .imageContainer img {
 }
 div.pictures .picture .imageContainer img:hover {
   transform: scale(1.25);
+}
+
+div.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem auto;
+  width: 70vw;
+}
+div.about h1 {
+  font-size: 3rem;
+  margin: 1rem 0rem;
+}
+div.about p {
+  font-size: 1.5rem;
+  margin: 1rem 0rem;
 }/*# sourceMappingURL=style.css.map */
